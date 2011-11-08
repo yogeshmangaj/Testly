@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="B_Logo">blacklogo.png</file>
+        <file alias="W_Logo">logowhite.png</file>
+        <file>images/radiobutton_unchecked.png</file>
+        <file>images/radiobutton_checked.png</file>
+    </qresource>
+</RCC>

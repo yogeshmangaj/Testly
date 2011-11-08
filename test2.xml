@@ -1,0 +1,88 @@
+<test version="1" count="10">
+	<testtitle>TOEFL Sample Questions</testtitle>
+	<testdescription>Structure and Written</testdescription>
+	<questions>
+		<question number="1">
+			<desc>With the passing of time and the encroachment of people, the habitat of gorillas __________ to decrease.</desc>
+			<option value="a">continuing</option>
+			<option value="b">which continue </option>
+			<option value="c">continues</option>
+			<option value="d">that it has continued</option>
+			</question>
+		<question number="2">
+			<desc>Sugar intake, particularly that of refined sugar, ________ curtailed by most overweight people wishing to lessen their corpulence.</desc>
+			<option value="a">must being </option>
+			<option value="b">which must </option>
+			<option value="c">must be  </option>
+			<option value="d">must</option>
+		</question>
+		<question number="3">
+			<desc>In recent months, the final mapping of the human genome ________ the range of medical treatments and cures available to those suffering from various diseases.</desc>
+			<option value="a">has extended </option>
+			<option value="b">extends</option>
+			<option value="c">will extend </option>
+			<option value="d">will have extended </option>
+		</question>
+		<question number="4">
+			<desc>Intelligent life on other planets, while remaining an intriguing possibility, ________ yet to be discovered.</desc>
+			<option value="a">has </option>
+			<option value="b">has been </option>
+			<option value="c">has not </option>
+			<option value="d">have </option>
+		</question>
+		<question number="5">
+			<desc>Despite being basically arboreal in nature, koalas ________ to inhabit a specific territory and range of some 30 square miles.</desc>
+			<option value="a">knowing </option>
+			<option value="b">which know </option>
+			<option value="c">are knowing </option>
+			<option value="d">are known </option>
+		</question>
+		<question number="6">
+			<desc>Initially elected as a labor leader, Jimmy Hoffa _________ mysteriously.</desc>
+			<option value="a">vanishing </option>
+			<option value="b">who vanished </option>
+			<option value="c">vanished </option>
+			<option value="d">vanishes </option>
+		</question>
+		<question number="7">
+			<desc>Broccoli _________ best in gardens having loose, well-composted soil, and full sunlight.</desc>
+			<option value="a">had grown </option>
+			<option value="b">grows </option>
+			<option value="c">growing </option>
+			<option value="d">which grows </option>
+		</question>
+		<question number="8">
+			<desc>Many of the novels of Kurt Vonnegut __________ a remarkable skepticism about the ultimate value of technological advances.</desc>
+			<option value="a">display </option>
+			<option value="b">will have displayed </option>
+			<option value="c">they display </option>
+			<option value="d">had displayed </option>
+		</question>
+		<question number="9">
+			<desc>Because copper is nonconductive, it __________ for housing electrical cords and circuitry.</desc>
+			<option value="a">values </option>
+			<option value="b">is valued </option>
+			<option value="c">is being valuable </option>
+			<option value="d">has valued </option>
+		</question>
+		<question number="10">
+			<desc>Numerous performances of Mozart's operas __________ in Austria long before the beginning of the 19th century.</desc>
+			<option value="a">perform </option>
+			<option value="b">had been performed </option>
+			<option value="c">had performed </option>
+			<option value="d">were performing </option>
+		</question>
+	</questions>
+	<answers>
+		<answer number="1">c</answer>
+		<answer number="2">c</answer>
+		<answer number="3">a</answer>
+		<answer number="4">a</answer>
+		<answer number="5">d</answer>
+		<answer number="6">c</answer>
+		<answer number="7">b</answer>
+		<answer number="8">a</answer>
+		<answer number="9">b</answer>
+		<answer number="10">b</answer>
+	</answers>
+</test>
