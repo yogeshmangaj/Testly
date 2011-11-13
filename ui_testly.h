@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'testly.ui'
 **
-** Created: Sun Nov 6 19:18:14 2011
+** Created: Sun Nov 13 10:39:55 2011
 **      by: Qt User Interface Compiler version 4.6.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -17,6 +17,8 @@
 #include <QtGui/QHBoxLayout>
 #include <QtGui/QHeaderView>
 #include <QtGui/QLabel>
+#include <QtGui/QLineEdit>
+#include <QtGui/QPlainTextEdit>
 #include <QtGui/QPushButton>
 #include <QtGui/QRadioButton>
 #include <QtGui/QStackedWidget>
@@ -67,13 +69,23 @@ public:
     QLabel *label_2;
     QLabel *l_result;
     QLabel *l_percent;
+    QPushButton *pb_sendsmsw;
     QPushButton *pb_exit;
+    QWidget *w_sms;
+    QVBoxLayout *verticalLayout_8;
+    QLabel *l_sms;
+    QLineEdit *le_phoneno;
+    QLabel *label_4;
+    QPlainTextEdit *te_smsresult;
+    QLabel *label_3;
+    QPlainTextEdit *te_smsmsg;
+    QPushButton *pb_sendsms;
 
     void setupUi(QWidget *testly)
     {
         if (testly->objectName().isEmpty())
             testly->setObjectName(QString::fromUtf8("testly"));
-        testly->resize(300, 428);
+        testly->resize(300, 558);
         QSizePolicy sizePolicy(QSizePolicy::MinimumExpanding, QSizePolicy::MinimumExpanding);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
@@ -372,12 +384,60 @@ public:
 
         verticalLayout_6->addWidget(l_percent);
 
+        pb_sendsmsw = new QPushButton(w_result);
+        pb_sendsmsw->setObjectName(QString::fromUtf8("pb_sendsmsw"));
+
+        verticalLayout_6->addWidget(pb_sendsmsw);
+
         pb_exit = new QPushButton(w_result);
         pb_exit->setObjectName(QString::fromUtf8("pb_exit"));
 
         verticalLayout_6->addWidget(pb_exit);
 
         stackedWidget->addWidget(w_result);
+        w_sms = new QWidget();
+        w_sms->setObjectName(QString::fromUtf8("w_sms"));
+        verticalLayout_8 = new QVBoxLayout(w_sms);
+        verticalLayout_8->setSpacing(6);
+        verticalLayout_8->setContentsMargins(11, 11, 11, 11);
+        verticalLayout_8->setObjectName(QString::fromUtf8("verticalLayout_8"));
+        l_sms = new QLabel(w_sms);
+        l_sms->setObjectName(QString::fromUtf8("l_sms"));
+
+        verticalLayout_8->addWidget(l_sms);
+
+        le_phoneno = new QLineEdit(w_sms);
+        le_phoneno->setObjectName(QString::fromUtf8("le_phoneno"));
+
+        verticalLayout_8->addWidget(le_phoneno);
+
+        label_4 = new QLabel(w_sms);
+        label_4->setObjectName(QString::fromUtf8("label_4"));
+
+        verticalLayout_8->addWidget(label_4);
+
+        te_smsresult = new QPlainTextEdit(w_sms);
+        te_smsresult->setObjectName(QString::fromUtf8("te_smsresult"));
+        te_smsresult->setReadOnly(true);
+
+        verticalLayout_8->addWidget(te_smsresult);
+
+        label_3 = new QLabel(w_sms);
+        label_3->setObjectName(QString::fromUtf8("label_3"));
+
+        verticalLayout_8->addWidget(label_3);
+
+        te_smsmsg = new QPlainTextEdit(w_sms);
+        te_smsmsg->setObjectName(QString::fromUtf8("te_smsmsg"));
+
+        verticalLayout_8->addWidget(te_smsmsg);
+
+        pb_sendsms = new QPushButton(w_sms);
+        pb_sendsms->setObjectName(QString::fromUtf8("pb_sendsms"));
+
+        verticalLayout_8->addWidget(pb_sendsms);
+
+        stackedWidget->addWidget(w_sms);
 
         verticalLayout->addWidget(stackedWidget);
 
@@ -417,7 +477,12 @@ public:
         label_2->setText(QApplication::translate("testly", "Results:", 0, QApplication::UnicodeUTF8));
         l_result->setText(QApplication::translate("testly", "TextLabel", 0, QApplication::UnicodeUTF8));
         l_percent->setText(QApplication::translate("testly", "TextLabel", 0, QApplication::UnicodeUTF8));
+        pb_sendsmsw->setText(QApplication::translate("testly", "SMS Result", 0, QApplication::UnicodeUTF8));
         pb_exit->setText(QApplication::translate("testly", "Exit", 0, QApplication::UnicodeUTF8));
+        l_sms->setText(QApplication::translate("testly", "Phone number:", 0, QApplication::UnicodeUTF8));
+        label_4->setText(QApplication::translate("testly", "Result:", 0, QApplication::UnicodeUTF8));
+        label_3->setText(QApplication::translate("testly", "Add your message:", 0, QApplication::UnicodeUTF8));
+        pb_sendsms->setText(QApplication::translate("testly", "Send", 0, QApplication::UnicodeUTF8));
     } // retranslateUi
 
 };

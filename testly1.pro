@@ -21,7 +21,7 @@ HEADERS  += testly.h
 FORMS    += testly.ui
 
 CONFIG += mobility
-MOBILITY = 
+MOBILITY = messaging
 
 symbian {
     TARGET.UID3 = 0xeb939180
@@ -29,5 +29,3 @@ symbian {
     TARGET.EPOCSTACKSIZE = 0x14000
     TARGET.EPOCHEAPSIZE = 0x020000 0x800000
 }
-
-
